@@ -1,0 +1,104 @@
+
+h1{
+    color: blue; 
+    font-size: 54px; 
+    font-family: Stencil Std, fantasy; 
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+h3{
+    color:black;
+    font-size:22px;
+    text-align:center;
+    font-family: Jazz LET, fantasy;
+}
+h2{
+    color:maroon;
+    font-size:37px;
+    text-align:center;
+    font-family: Jazz LET, fantasy;
+
+}
+p{
+    border: solid black 2px;
+    font-size:20px;
+    background:midnightblue;
+    color:white;
+    font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+}
+  
+html{
+    
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/army_veteran_clip_art_14724.jpg);
+    background-size: 26% auto;
+    background-position:  left;
+    background-attachment: fixed;
+}
+.founder img{
+    max-width: 100%;
+    height:auto;
+    margin-left: 250px;
+
+}
+img{
+    max-width: 65%;
+    height:auto;
+    margin-left: 100px;
+}
+.container{
+    background-color:white;
+    margin-left:344px;
+    width: 51% ;
+    padding: 10px;
+    
+    
+}
+.container-history{
+    background-color:white;
+    margin-left:349px;
+    width: 51% ;
+    height:250px;
+    padding: 10px;
+    
+    
+}
+.container-title{
+    background-color:white;
+    margin-left:349px;
+    width: 51% ;
+    height:150px;
+    padding: 10px;
+    
+    
+}
+.container-link{
+    background-color:white;
+    margin-left:349px;
+    width: 51% ;
+    height:100px;
+    padding: 10px;
+    
+    
+}
+@media(max-width:800px){
+    .container{
+        margin-left:110px;
+        width:51%;
+    }
+    img{
+        max-width: 100%;
+        margin-left:2px;
+    }
+    .founder img{
+        max-width:100%;
+        margin-left:10px;
+    }
+    html{
+        background-size: 50% auto;
+        background-position: center;
+        
+    }
+ 
+}
+
